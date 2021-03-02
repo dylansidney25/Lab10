@@ -11,7 +11,7 @@ def PlotSignal():
     plt.grid(True)
     plt.ylabel('analog signal AD0')
     plt.plot(data1, 'r', label='Digital Signal One')
-    plt.plot(data2, 'r', label = 'Digital Signal Two')
+    plt.plot(data2, 'b', label = 'Digital Signal Two')
     plt.legend(loc='upper right')
     
 if __name__ == '__main__':
