@@ -36,5 +36,6 @@ if __name__ == '__main__':
         if(Dcounter > 60):
             DCounter = 0
             data1.pop(0)
+            data2.pop(0)
             
     ser.close
